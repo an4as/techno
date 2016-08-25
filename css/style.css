@@ -9661,3 +9661,30 @@ input[type="submit"], button {
   font-weight: normal;
   font-style: normal;
 }
+/* line 1, ../sass/_default-clases.scss */
+.btn-lg, .btn-sm {
+  background: #ee3643;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+}
+/* line 6, ../sass/_default-clases.scss */
+.btn-lg:hover, .btn-sm:hover {
+  background: #ca2c37;
+}
+/* line 9, ../sass/_default-clases.scss */
+.btn-lg:active, .btn-sm:active {
+  background: #ba2732;
+}
+
+/* line 14, ../sass/_default-clases.scss */
+.btn-lg {
+  width: 254px;
+  height: 38px;
+}
+
+/* line 19, ../sass/_default-clases.scss */
+.btn-sm {
+  width: 220px;
+  height: 41px;
+}

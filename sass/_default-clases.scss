@@ -1,0 +1,23 @@
+%btn{
+	background: #ee3643;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+		&:hover{
+			background: #ca2c37;
+		}
+		&:active{
+			background: #ba2732;
+		}
+}
+
+.btn-lg{
+	@extend %btn;
+	width: 254px;
+	height: 38px;
+}
+.btn-sm{
+	@extend %btn;
+	width: 220px;
+	height: 41px;
+}

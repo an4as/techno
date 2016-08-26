@@ -9689,22 +9689,32 @@ input[type="submit"], button {
   height: 41px;
 }
 
+/* line 24, ../sass/_default-clases.scss */
+input[type="text"] {
+  background: transparent;
+  font-size: 17px;
+  color: #fff;
+  height: 43px;
+  width: 285px;
+}
+
 /* line 2, ../sass/_layout.scss */
 .topbar-wrapper {
   height: 43px;
   background: #293449;
 }
 /* line 5, ../sass/_layout.scss */
-.topbar-wrapper.logo-title {
+.topbar-wrapper .logo-title {
   width: 220px;
   height: 43px;
   background: #ee3643;
   text-align: center;
   padding-top: 7px;
   position: relative;
+  float: left;
 }
-/* line 12, ../sass/_layout.scss */
-.topbar-wrapper.logo-title:before {
+/* line 13, ../sass/_layout.scss */
+.topbar-wrapper .logo-title:before {
   content: "";
   display: inline-block;
   width: 220px;
@@ -9712,12 +9722,65 @@ input[type="submit"], button {
   background: #b52933;
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: -5px;
 }
-/* line 22, ../sass/_layout.scss */
-.topbar-wrapper.logo-title span {
+/* line 23, ../sass/_layout.scss */
+.topbar-wrapper .logo-title a {
+  display: inline-block;
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
   color: #fff;
+}
+/* line 31, ../sass/_layout.scss */
+.topbar-wrapper .search {
+  float: left;
+}
+/* line 34, ../sass/_layout.scss */
+.topbar-wrapper .purchases {
+  float: left;
+  width: 284px;
+}
+/* line 37, ../sass/_layout.scss */
+.topbar-wrapper .purchases .purchases-icons {
+  margin-top: 12px;
+}
+/* line 39, ../sass/_layout.scss */
+.topbar-wrapper .purchases .purchases-icons li {
+  display: inline-block;
+  color: #fff;
+  font-size: 17px;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+/* line 49, ../sass/_layout.scss */
+.topbar-wrapper .shopping-block {
+  padding-top: 7px;
+  float: right;
+  width: 150px;
+  height: 43px;
+  background: #63a63e;
+  text-align: center;
+}
+/* line 56, ../sass/_layout.scss */
+.topbar-wrapper .shopping-block a {
+  display: inline-block;
+  color: #fff;
+  font-size: 17px;
+}
+
+/* line 64, ../sass/_layout.scss */
+.header-info {
+  background: #f1f5f7;
+  height: 159px;
+}
+/* line 67, ../sass/_layout.scss */
+.header-info .textinfo {
+  color: #ee3643;
+  font-size: 16px;
+  margin: 48px 0 0 45px;
+}
+/* line 72, ../sass/_layout.scss */
+.header-info .contacts {
+  padding: 45px 81px 0 0;
 }

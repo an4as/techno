@@ -2,13 +2,14 @@
 .topbar-wrapper{
 	height: 43px;
 	background: #293449;
-		&.logo-title{
+		.logo-title{
 			width: 220px;
 			height: 43px;
 			background: #ee3643;
 			text-align: center;
 			padding-top: 7px;
 			position: relative;
+			float: left;
 				&:before{
 					content: "";
 					display: inline-block;
@@ -17,13 +18,58 @@
 					background: #b52933;
 					position: absolute;
 					left: 0;
-					bottom: 0;
+					bottom: -5px;
 				}
-				span{
+				a{
+					display: inline-block;
 					font-size: 24px;
 					font-weight: bold;
 					text-transform: uppercase;
 					color: #fff;
 				}
+		}
+		.search{
+			float: left;
+		}
+		.purchases{
+			float: left;
+			width: 284px;
+				.purchases-icons{
+					margin-top: 12px;
+						li{
+						display: inline-block;
+						color: #fff;
+						font-size: 17px;
+						margin-right: 10px;
+						padding-right: 10px;
+						}
+				}
+				
+		}
+		.shopping-block{
+			padding-top: 7px;
+			float: right;
+			width: 150px;
+			height: 43px;
+			background: #63a63e;
+			text-align: center;
+				a{
+					display: inline-block;
+					color: #fff;
+					font-size: 17px;
+
+				}
+		}
+}
+.header-info{
+	background: #f1f5f7;
+	height: 159px;
+		.textinfo{
+			color: #ee3643;
+			font-size: 16px;
+			margin: 48px 0 0 45px;
+		}
+		.contacts{
+			padding: 45px 81px 0 0;
 		}
 }

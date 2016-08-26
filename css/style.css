@@ -9688,3 +9688,36 @@ input[type="submit"], button {
   width: 220px;
   height: 41px;
 }
+
+/* line 2, ../sass/_layout.scss */
+.topbar-wrapper {
+  height: 43px;
+  background: #293449;
+}
+/* line 5, ../sass/_layout.scss */
+.topbar-wrapper.logo-title {
+  width: 220px;
+  height: 43px;
+  background: #ee3643;
+  text-align: center;
+  padding-top: 7px;
+  position: relative;
+}
+/* line 12, ../sass/_layout.scss */
+.topbar-wrapper.logo-title:before {
+  content: "";
+  display: inline-block;
+  width: 220px;
+  height: 5px;
+  background: #b52933;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+/* line 22, ../sass/_layout.scss */
+.topbar-wrapper.logo-title span {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}

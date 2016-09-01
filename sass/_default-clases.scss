@@ -28,3 +28,52 @@ input[type="text"]{
 	height: 43px;
 	width: 285px;	
 }
+
+// clases for bg
+.orange-bg{
+	background: $generalOrangBg !important;
+}
+
+.blue-bg{
+	background: $generalBlueBg !important;
+}
+
+.pink-bg{
+	background: $generalPinkBg !important;
+}
+
+// before standart style
+%beforeStandartStyle{
+	content: "";
+	display: inline-block;
+}
+
+// класс для віравнивани любого блока по вертикали
+.vertical-align {
+  &:before {
+    display: inline-block;
+    content: '';
+    height: 100%;
+    vertical-align: middle;
+    margin-left:-5px;
+  }
+  & > *{
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+.new-category{
+	@include size(80px, 20px);
+	background: $generalRedBg;
+	color: #fff;
+	font-size: 1.6em;
+	position: absolute;
+	top: 9px;
+	right: -19px;
+	text-align: center;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}

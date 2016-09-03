@@ -9600,64 +9600,318 @@ ul {
 /* line 26, ../sass/_reset.scss */
 img {
   border: none;
+  max-width: 100%;
 }
 
-/* line 29, ../sass/_reset.scss */
+/* line 30, ../sass/_reset.scss */
 input, textarea, button {
   outline: none;
   border: 0;
   padding: 0;
 }
 
-/* line 34, ../sass/_reset.scss */
+/* line 35, ../sass/_reset.scss */
 textarea {
   resize: vertical;
 }
 
-/* line 37, ../sass/_reset.scss */
+/* line 38, ../sass/_reset.scss */
 input[type="submit"], button {
   cursor: pointer;
 }
 
 @font-face {
-  font-family: 'roboto_condensedbold';
-  src: url("../fonts/robotocondensed-bold-webfont.eot");
-  src: url("../fonts/robotocondensed-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/robotocondensed-bold-webfont.woff2") format("woff2"), url("../fonts/robotocondensed-bold-webfont.woff") format("woff"), url("../fonts/robotocondensed-bold-webfont.ttf") format("truetype"), url("../fonts/robotocondensed-bold-webfont.svg#roboto_condensedbold") format("svg");
+  font-family: 'cuprumbold';
+  src: url("../fonts/cuprum-bold-webfont.eot");
+  src: url("../fonts/cuprum-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/cuprum-bold-webfont.woff2") format("woff2"), url("../fonts/cuprum-bold-webfont.woff") format("woff"), url("../fonts/cuprum-bold-webfont.ttf") format("truetype"), url("../fonts/cuprum-bold-webfont.svg#cuprumbold") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'robotoitalic';
-  src: url("../fonts/roboto-italic-webfont.eot");
-  src: url("../fonts/roboto-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-italic-webfont.woff2") format("woff2"), url("../fonts/roboto-italic-webfont.woff") format("woff"), url("../fonts/roboto-italic-webfont.svg#robotoitalic") format("svg");
+  font-family: 'cuprumitalic';
+  src: url("../fonts/cuprum-italic-webfont.eot");
+  src: url("../fonts/cuprum-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/cuprum-italic-webfont.woff2") format("woff2"), url("../fonts/cuprum-italic-webfont.woff") format("woff"), url("../fonts/cuprum-italic-webfont.ttf") format("truetype"), url("../fonts/cuprum-italic-webfont.svg#cuprumitalic") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'robotolight';
-  src: url("../fonts/roboto-light-webfont.eot");
-  src: url("../fonts/roboto-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-light-webfont.woff2") format("woff2"), url("../fonts/roboto-light-webfont.woff") format("woff"), url("../fonts/roboto-light-webfont.svg#robotolight") format("svg");
+  font-family: 'cuprumregular';
+  src: url("../fonts/cuprum-regular-webfont.eot");
+  src: url("../fonts/cuprum-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/cuprum-regular-webfont.woff2") format("woff2"), url("../fonts/cuprum-regular-webfont.woff") format("woff"), url("../fonts/cuprum-regular-webfont.ttf") format("truetype"), url("../fonts/cuprum-regular-webfont.svg#cuprumregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'robotomedium';
-  src: url("../fonts/roboto-medium-webfont.eot");
-  src: url("../fonts/roboto-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-medium-webfont.woff2") format("woff2"), url("../fonts/roboto-medium-webfont.woff") format("woff"), url("../fonts/roboto-medium-webfont.svg#robotomedium") format("svg");
+  font-family: 'open_sanslight';
+  src: url("../fonts/opensans-light-webfont.eot");
+  src: url("../fonts/opensans-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-light-webfont.woff2") format("woff2"), url("../fonts/opensans-light-webfont.woff") format("woff"), url("../fonts/opensans-light-webfont.ttf") format("truetype"), url("../fonts/opensans-light-webfont.svg#open_sanslight") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'robotoregular';
-  src: url("../fonts/roboto-regular-webfont.eot");
-  src: url("../fonts/roboto-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-regular-webfont.woff2") format("woff2"), url("../fonts/roboto-regular-webfont.woff") format("woff"), url("../fonts/roboto-regular-webfont.svg#robotoregular") format("svg");
+  font-family: 'open_sanssemibold';
+  src: url("../fonts/opensans-semibold-webfont.eot");
+  src: url("../fonts/opensans-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-semibold-webfont.woff2") format("woff2"), url("../fonts/opensans-semibold-webfont.woff") format("woff"), url("../fonts/opensans-semibold-webfont.ttf") format("truetype"), url("../fonts/opensans-semibold-webfont.svg#open_sanssemibold") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'robotobold';
-  src: url("../fonts/roboto-bold-webfont.eot");
-  src: url("../fonts/roboto-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-bold-webfont.woff2") format("woff2"), url("../fonts/roboto-bold-webfont.woff") format("woff"), url("../fonts/roboto-bold-webfont.ttf") format("truetype"), url("../fonts/roboto-bold-webfont.svg#robotobold") format("svg");
+  font-family: 'pf_square_sans_proregular';
+  src: url("../fonts/pfsquaresanspro-regular-webfont.eot");
+  src: url("../fonts/pfsquaresanspro-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/pfsquaresanspro-regular-webfont.woff2") format("woff2"), url("../fonts/pfsquaresanspro-regular-webfont.woff") format("woff"), url("../fonts/pfsquaresanspro-regular-webfont.ttf") format("truetype"), url("../fonts/pfsquaresanspro-regular-webfont.svg#pf_square_sans_proregular") format("svg");
   font-weight: normal;
   font-style: normal;
+}
+/* line 1, ../sass/_default-clases.scss */
+.btn-lg, .btn-sm {
+  background: #ee3643;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+}
+/* line 6, ../sass/_default-clases.scss */
+.btn-lg:hover, .btn-sm:hover {
+  background: #ca2c37;
+}
+/* line 9, ../sass/_default-clases.scss */
+.btn-lg:active, .btn-sm:active {
+  background: #ba2732;
+}
+
+/* line 14, ../sass/_default-clases.scss */
+.btn-lg {
+  width: 254px;
+  height: 38px;
+}
+
+/* line 19, ../sass/_default-clases.scss */
+.btn-sm {
+  width: 220px;
+  height: 41px;
+}
+
+/* line 24, ../sass/_default-clases.scss */
+input[type="text"] {
+  background: transparent;
+  font-size: 17px;
+  color: #fff;
+  height: 43px;
+  width: 285px;
+}
+
+/* line 33, ../sass/_default-clases.scss */
+.orange-bg {
+  background: #f6b22d !important;
+}
+
+/* line 37, ../sass/_default-clases.scss */
+.blue-bg {
+  background: #4aafde !important;
+}
+
+/* line 41, ../sass/_default-clases.scss */
+.pink-bg {
+  background: #cc79d1 !important;
+}
+
+/* line 53, ../sass/_default-clases.scss */
+.vertical-align:before {
+  display: inline-block;
+  content: '';
+  height: 100%;
+  vertical-align: middle;
+  margin-left: -5px;
+}
+/* line 60, ../sass/_default-clases.scss */
+.vertical-align > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 66, ../sass/_default-clases.scss */
+.new-category {
+  width: 80px;
+  height: 20px;
+  background: #ee3643;
+  color: #fff;
+  font-size: 1.6em;
+  position: absolute;
+  top: 9px;
+  right: -19px;
+  text-align: center;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* line 2, ../sass/_layout.scss */
+.topbar-wrapper {
+  height: 43px;
+  background: #293449;
+}
+/* line 5, ../sass/_layout.scss */
+.topbar-wrapper .logo-title {
+  width: 220px;
+  height: 43px;
+  background: #ee3643;
+  text-align: center;
+  padding-top: 7px;
+  font-family: 'cuprumbold';
+  position: relative;
+  float: left;
+}
+/* line 14, ../sass/_layout.scss */
+.topbar-wrapper .logo-title:before {
+  content: "";
+  display: inline-block;
+  width: 220px;
+  height: 5px;
+  background: #b52933;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+}
+/* line 24, ../sass/_layout.scss */
+.topbar-wrapper .logo-title a {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+/* line 32, ../sass/_layout.scss */
+.topbar-wrapper .search {
+  float: left;
+  font-family: 'cuprumregular';
+  color: #fff;
+}
+/* line 36, ../sass/_layout.scss */
+.topbar-wrapper .search input[type="text"] {
+  width: 230px;
+}
+/* line 40, ../sass/_layout.scss */
+.topbar-wrapper .purchases {
+  float: left;
+  width: 297px;
+}
+/* line 43, ../sass/_layout.scss */
+.topbar-wrapper .purchases .purchases-icons {
+  margin-top: 12px;
+}
+/* line 45, ../sass/_layout.scss */
+.topbar-wrapper .purchases .purchases-icons li {
+  display: inline-block;
+  font-size: 17px;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+/* line 50, ../sass/_layout.scss */
+.topbar-wrapper .purchases .purchases-icons li a {
+  color: #fff;
+  font-family: 'cuprumregular';
+}
+/* line 58, ../sass/_layout.scss */
+.topbar-wrapper .shopping-block {
+  padding-top: 7px;
+  float: right;
+  width: 150px;
+  height: 43px;
+  background: #63a63e;
+  text-align: center;
+}
+/* line 65, ../sass/_layout.scss */
+.topbar-wrapper .shopping-block a {
+  display: inline-block;
+  color: #fff;
+  font-size: 17px;
+  font-family: 'cuprumregular';
+}
+
+/* line 73, ../sass/_layout.scss */
+.glyphicon {
+  color: #6a7180;
+  margin: 0 15px 0 15px;
+}
+
+/* line 77, ../sass/_layout.scss */
+.header-info {
+  background: #f1f5f7;
+  height: 159px;
+}
+/* line 80, ../sass/_layout.scss */
+.header-info .textinfo {
+  color: #ee3643;
+  font-size: 16px;
+  margin: 48px 0 0 45px;
+  font-family: 'cuprumitalic';
+}
+/* line 86, ../sass/_layout.scss */
+.header-info .contacts {
+  padding: 45px 81px 0 0;
+  text-align: center;
+}
+/* line 89, ../sass/_layout.scss */
+.header-info .contacts .phone {
+  color: #e9292a;
+  font-size: 21px;
+  font-family: 'cuprumregular';
+  border: 3px solid #fff;
+}
+/* line 95, ../sass/_layout.scss */
+.header-info .contacts .address {
+  color: #32425c;
+  font-size: 16px;
+  font-family: 'cuprumregular';
+  margin-top: 10px;
+}
+/* line 104, ../sass/_layout.scss */
+.header-info .contacts .login-signin .login a {
+  font-size: 21px;
+  font-family: 'cuprumregular';
+  color: #000;
+  width: 140px;
+  height: 45px;
+  background: #fff;
+}
+/* line 114, ../sass/_layout.scss */
+.header-info .contacts .login-signin .signin a {
+  font-size: 21px;
+  font-family: 'cuprumregular';
+  color: #000;
+  width: 150px;
+  height: 45px;
+  background: #fff;
+}
+
+/* line 127, ../sass/_layout.scss */
+.header-menu {
+  background: #32425c;
+  position: relative;
+  padding: 0 25px 0 25px;
+  height: 60px;
+  width: 940px;
+  margin: 0 auto;
+}
+/* line 134, ../sass/_layout.scss */
+.header-menu li {
+  display: inline-block;
+  font-size: 17px;
+  margin: 22px 26px 0 26px;
+}
+/* line 138, ../sass/_layout.scss */
+.header-menu li a {
+  color: #fff;
+  font-family: 'cuprumregular';
+}
+/* line 143, ../sass/_layout.scss */
+.header-menu:before {
+  content: "";
+  display: inline-block;
+  width: 940px;
+  height: 5px;
+  background: #293449;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
 }

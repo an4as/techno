@@ -86,7 +86,64 @@
         </ol>
     </div>
     <div class="list-perforator">ПЕРФОРАТОРЫ</div>
-
+    <div class="side-panel">
+      <div class="filter">Фильтр:
+        <!--ползунок цен-->
+            <main class="category">
+              <div class="white-block">
+                <div class="container">
+                    <div class="price-slider">
+                        <form>
+                            <span>От</span>
+                            <input type="text" id="minCost" value="0"/>
+                            <span>До</span>
+                            <input type="text" id="maxCost" value="50000"/>
+                            <span>руб.</span>
+                            <div id="slider"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        <div class="arrow">
+          <div class="arrow-up"></div>
+          <div class="arrow-down"></div>
+        </div>
+        <div class="MANUFACTURERS">ПРОИЗВОДИТЕЛИ:
+          <label class="checkbox-inline">
+            <input type="checkbox" id="bosch" value="option1">BOSCH
+          </label>
+          <label class="checkbox-inline">
+            <input type="checkbox" id="interskol" value="option2">ИНТЕРСКОЛ
+          </label>
+          <label class="checkbox-inline">
+            <input type="checkbox" id="makita" value="option3">MAKITA
+          </label>
+            <label class="checkbox-inline">
+            <input type="checkbox" id="dewalt" value="option1">DEWALT
+          </label>
+          <label class="checkbox-inline">
+            <input type="checkbox" id="hitachi" value="option2">HITACHI
+          </label>
+        </div>
+        <div class="power">ПИТАНИЕ:
+          <label class="radio-inline">
+          <input type="radio" name="inlineRadioOptions" id="battery"
+          value="option1">АККУМУЛЯТОРНЫЕ:
+          </label>
+          <label class="radio-inline">
+          <input type="radio" name="inlineRadioOptions" id="network" value="option2">СЕТЕВЫЕ:
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="main-catalog">
+      <span>СОРТИРОВКА:</span>
+      <a class="btn-price">ПО ЦЕНЕ</a>
+      <a class="btn-type">ПО ТИПУ</a>
+      <a class="btn-function">ПО ФУНКЦИОНАЛУ</a>
+      <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
+      <span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span>
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

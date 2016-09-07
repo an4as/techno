@@ -3,6 +3,8 @@
 	font-size: 14px;
 	color: #fff;
 	text-align: center;
+	font-family: 'cuprumregular';
+	text-transform: uppercase;
 		&:hover{
 			background: #ca2c37;
 		}
@@ -20,6 +22,9 @@
 	@extend %btn;
 	width: 220px;
 	height: 41px;
+}
+.abtn{
+	color: #fff;
 }
 input[type="text"]{
 	background: transparent;
@@ -40,6 +45,10 @@ input[type="text"]{
 
 .pink-bg{
 	background: $generalPinkBg !important;
+}
+
+.green-bg{
+	background: $generalGreenBg !important;
 }
 
 // before standart style
@@ -76,4 +85,40 @@ input[type="text"]{
 	-ms-transform: rotate(45deg);
 	-o-transform: rotate(45deg);
 	transform: rotate(45deg);
+}
+//заголовок
+h3{
+	font-size: 30px;
+	color: #32425c;
+	font-family: 'cuprumregular';
+	text-transform: uppercase;
+	float: left;
+}
+h4{
+	font-size: 30px;
+	color: #000;
+	font-family: 'cuprumregular';
+	text-transform: uppercase;
+	margin-bottom: 37px;
+}
+h5{
+	font-size: 36px;
+	color: #32425c;
+	font-family: 'cuprumregular';
+	text-transform: uppercase;
+	margin-bottom: 33px;
+}
+//параграфы
+.service-style{
+	font-size: 13px;
+	color: #000;
+	font-family: 'open_sanslight';
+
+}
+//фон заголовка
+.title-bg{
+	height: 89px;
+	background: #f7f3ec;
+	padding: 35px 15px 35px 30px;
+	margin: 22px 0 21px 0;
 }

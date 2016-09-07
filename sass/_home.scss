@@ -1,0 +1,110 @@
+.carusel-inner-wrap{
+	padding-top: 60px;
+		.category-block{
+			height: 123px;
+			padding: 23px 25px;
+			overflow: hidden;
+			position: relative;
+			margin-bottom: 20px;
+				span{
+					font-size: 24px;
+					color: #fff;
+					font-family: 'cuprumbold';
+					display: block;
+				}
+				.btn-category{
+					display: inline-block;
+					@include size (137px, 38px);
+					background: rgba(0, 0, 0, .1);
+					color: #fff;
+					font-size: 14px;
+					font-family: 'cuprumregular';
+					text-transform: uppercase;
+					line-height: 38px;
+					text-align: center;
+					margin-top: 13px;
+					border-radius: 3px;
+						&:hover{
+							background: rgba(0, 0, 0, .3);
+						}
+				}
+				&:after{
+					@extend %beforeStandartStyle;
+					position: absolute;
+					top: 50%;
+					background: url('../img/sprite.png') no-repeat;
+				}
+				&.material-icon{
+					&:after{
+						background-position: -0px -258px; 
+						@include size(44px, 65px);
+						margin-top: -32.5px;
+						right: 43px;
+					}
+				}
+				&.tool-icon{
+					&:after{
+						background-position: -0px -125px;
+						@include size(75px, 61px);
+						margin-top: -30.5px;
+						right: 27px;
+					}
+				}
+				&.techno-icon{
+					&:after{
+						background-position: -0px -0px;
+						@include size(78px, 62px);
+						margin-top: -31px;
+						right: 31px;
+					}
+				}
+				&.discount-icon{
+					&:after{
+						background-position: -0px -186px; 
+						@include size(59px, 72px);
+						margin-top: -31px;
+						right: 31px;
+					}
+				}
+				&.delivery-icon{
+					&:after{
+						background-position: -0px -62px;
+						@include size(78px, 63px);
+						margin-top: -31px;
+						right: 31px;
+					}
+				}
+		}
+}
+.service-wrap{
+	height: 521px;
+	background: #f2f6f8;
+	padding-top: 66px;
+	overflow: hidden;
+		.service-title{
+			display: block;
+			margin-bottom: 75px;
+		}
+		.nav-pills{
+			font-size: 21px;
+			color: #fff;
+			font-family: 'cuprumbold';
+			height: 61px;
+			margin: none;
+				li{
+					background: #32425c;
+				}
+		}
+		.tab-content{
+			position: relative;
+				p{
+					width: 300px;	
+				}
+				img{
+					position: absolute;
+					right: 0;
+					bottom: -135px;
+				}
+			
+		}
+}
